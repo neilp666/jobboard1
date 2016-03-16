@@ -91,4 +91,18 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 
 
+.nav {
+  float: right;
+  padding-top: 1.75em;
+  a {
+    color: $secondary;
+    margin-left: 1em;
+    text-decoration: none;
+  }
+  .current {
+    font-weight: 700;
+    color: $main;
+  }
+}
+
 
